@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Navbar */
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+.navbar{
+    background-image: linear-gradient(to right, #0000e6, #3333ff);
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: #fff;
+}
+
+.navbar-nav ul li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Banner */
+#banner{
+    position: relative;
+    background-image:linear-gradient(to right, #00e6e6, #80ffff);
+    color: #fff;
+    padding-top: 5%;
+    
+
+}
+
+.title{
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.ban-img{
+    position: relative;
+    z-index: 1000;
+}
+
+.footer{
+    position: relative;
+}
